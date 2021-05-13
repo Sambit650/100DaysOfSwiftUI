@@ -1,2 +1,5 @@
 # 100DaysOfSwiftUI
-100 Days Of SwiftUI by Paul Hundson
+
+* 100 Days Of SwiftUI by Paul Hundson
+<hr>
+
