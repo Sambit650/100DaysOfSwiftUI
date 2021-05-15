@@ -8,6 +8,9 @@
 import SwiftUI
 
 struct GuessTheFlag: View {
+    
+    // MARK:- Properties
+    
     @State private var countries = ["Estonia", "France", "Germany", "Ireland", "Italy", "Nigeria", "Poland", "Russia", "Spain", "UK", "US"].shuffled()
     @State private var scoreTitle = ""
     @State private var showingScore: Bool = false
@@ -16,6 +19,8 @@ struct GuessTheFlag: View {
     @State private var totalQuestionAttempted = 0
     
     var body: some View {
+        
+        // MARK:- views
         
         ZStack {
             LinearGradient(gradient: Gradient(colors: [.red, .white, .gray]), startPoint: .top, endPoint: .bottom)
@@ -55,13 +60,17 @@ struct GuessTheFlag: View {
             }
         }
         .alert(isPresented: $showingScore) {
-            Alert(title: Text(scoreTitle), message: Text("Your score is \(yourScore)"), dismissButton: .default(Text("Continue")) {
+            Alert(title: Text(scoreTitle),
+                  message: Text("Your score is \(yourScore)/\(totalQuestionAttempted)"),
+                  dismissButton: .default(Text("Continue")) {
                 self.askQuestion()
             })
         }
     }
     
-    func flagTapped(_ number: Int) {
+    // MARK:- Methods
+    
+    private func flagTapped(_ number: Int) {
         
         if number == correctAnswer {
             scoreTitle = "Wow! Correct"
@@ -73,7 +82,7 @@ struct GuessTheFlag: View {
         totalQuestionAttempted += 1
     }
     
-    func askQuestion() {
+    private func askQuestion() {
         countries.shuffle()
         correctAnswer = Int.random(in: 0...2)
     }
