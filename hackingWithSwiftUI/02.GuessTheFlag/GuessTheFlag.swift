@@ -12,6 +12,8 @@ struct GuessTheFlag: View {
     @State private var scoreTitle = ""
     @State private var showingScore: Bool = false
     @State private var correctAnswer = Int.random(in: 0...2)
+    @State private var yourScore: Int = 0
+    @State private var totalQuestionAttempted = 0
     
     var body: some View {
         
@@ -42,19 +44,33 @@ struct GuessTheFlag: View {
                             .shadow(color: .black, radius: 2)
                     }
                 }
+                
+                Text("Your Score is \(yourScore)")
+                    .foregroundColor(.black)
+                    .font(.title)
+                    .fontWeight(.medium)
+                
+                
                 Spacer()
             }
         }
         .alert(isPresented: $showingScore) {
-            Alert(title: Text(scoreTitle), message: Text("Your score is ???"), dismissButton: .default(Text("Continue")) {
+            Alert(title: Text(scoreTitle), message: Text("Your score is \(yourScore)"), dismissButton: .default(Text("Continue")) {
                 self.askQuestion()
             })
         }
     }
     
     func flagTapped(_ number: Int) {
-        scoreTitle = (number == correctAnswer) ? "Correct" : "Wrong"
+        
+        if number == correctAnswer {
+            scoreTitle = "Wow! Correct"
+            yourScore += 1
+        } else {
+            scoreTitle = "Wrong! That's flag of \(countries[correctAnswer])"
+        }
         showingScore = true
+        totalQuestionAttempted += 1
     }
     
     func askQuestion() {
