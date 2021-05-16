@@ -3,6 +3,14 @@
 * 100 Days Of SwiftUI by Paul Hundson
 <hr>
 
+## Projects List
+* WeSplit
+* LenghtConversion
+* GuessTheFlag
+* ViewsAndModifiers
+
+<hr>
+
 ## Inroduction to Swift
 - [X] day 1-15
 <hr>
