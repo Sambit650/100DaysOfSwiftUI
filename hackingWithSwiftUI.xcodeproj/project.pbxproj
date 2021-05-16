@@ -64,8 +64,8 @@
 				3852EB6E264B0ECD002645CA /* ContentView.swift */,
 				3852EB7F264B0F16002645CA /* 01.WeSplit */,
 				38736FB526504C0D00D1FB1F /* 02.GuessTheFlag */,
-				389374C52651C33200F13752 /* 03.ViewsAndModifiers */,
-				388014E3264BC12A007BD196 /* Challenge */,
+				388014E4264BC16A007BD196 /* 03.LengthConversion */,
+				389374C52651C33200F13752 /* 04.ViewsAndModifiers */,
 				3852EB70264B0ECE002645CA /* Assets.xcassets */,
 				3852EB75264B0ECE002645CA /* Info.plist */,
 				3852EB72264B0ECE002645CA /* Preview Content */,
@@ -97,28 +97,20 @@
 			path = 02.GuessTheFlag;
 			sourceTree = "<group>";
 		};
-		388014E3264BC12A007BD196 /* Challenge */ = {
-			isa = PBXGroup;
-			children = (
-				388014E4264BC16A007BD196 /* Conversion */,
-			);
-			path = Challenge;
-			sourceTree = "<group>";
-		};
-		388014E4264BC16A007BD196 /* Conversion */ = {
+		388014E4264BC16A007BD196 /* 03.LengthConversion */ = {
 			isa = PBXGroup;
 			children = (
 				388014E5264BC194007BD196 /* Conversion.swift */,
 			);
-			path = Conversion;
+			path = 03.LengthConversion;
 			sourceTree = "<group>";
 		};
-		389374C52651C33200F13752 /* 03.ViewsAndModifiers */ = {
+		389374C52651C33200F13752 /* 04.ViewsAndModifiers */ = {
 			isa = PBXGroup;
 			children = (
 				389374C62651C3E800F13752 /* ViewsAndModifiers.swift */,
 			);
-			path = 03.ViewsAndModifiers;
+			path = 04.ViewsAndModifiers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
