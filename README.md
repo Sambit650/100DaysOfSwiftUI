@@ -4,10 +4,10 @@
 <hr>
 
 ## Projects List
-* WeSplit
-* LenghtConversion
-* GuessTheFlag
-* ViewsAndModifiers
+1. WeSplit
+2. LenghtConversion
+3. GuessTheFlag
+4. ViewsAndModifiers
 
 <hr>
 
