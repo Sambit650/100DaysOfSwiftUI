@@ -26,6 +26,6 @@
 - [X] day 23
 - [X] day 24
 - [X] day 25
-- [ ] day 26
+- [X] day 26
 - [ ] day 27
 - [ ] day 28
