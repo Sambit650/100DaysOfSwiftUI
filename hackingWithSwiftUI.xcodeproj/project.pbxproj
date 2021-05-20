@@ -16,6 +16,7 @@
 		388014E6264BC194007BD196 /* Conversion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 388014E5264BC194007BD196 /* Conversion.swift */; };
 		389374C72651C3E800F13752 /* ViewsAndModifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 389374C62651C3E800F13752 /* ViewsAndModifiers.swift */; };
 		38B1D64A265631D0009C1891 /* BetterRest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38B1D649265631D0009C1891 /* BetterRest.swift */; };
+		38B1D64E26563629009C1891 /* SleepCalculator.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 38B1D64D26563629009C1891 /* SleepCalculator.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		388014E5264BC194007BD196 /* Conversion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Conversion.swift; sourceTree = "<group>"; };
 		389374C62651C3E800F13752 /* ViewsAndModifiers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewsAndModifiers.swift; sourceTree = "<group>"; };
 		38B1D649265631D0009C1891 /* BetterRest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BetterRest.swift; sourceTree = "<group>"; };
+		38B1D64D26563629009C1891 /* SleepCalculator.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = SleepCalculator.mlmodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,6 +122,7 @@
 			isa = PBXGroup;
 			children = (
 				38B1D649265631D0009C1891 /* BetterRest.swift */,
+				38B1D64D26563629009C1891 /* SleepCalculator.mlmodel */,
 			);
 			path = 05.BetterRest;
 			sourceTree = "<group>";
@@ -195,6 +198,7 @@
 			files = (
 				3852EB6F264B0ECD002645CA /* ContentView.swift in Sources */,
 				388014E6264BC194007BD196 /* Conversion.swift in Sources */,
+				38B1D64E26563629009C1891 /* SleepCalculator.mlmodel in Sources */,
 				3852EB85264B0F58002645CA /* WeSplit.swift in Sources */,
 				389374C72651C3E800F13752 /* ViewsAndModifiers.swift in Sources */,
 				3852EB6D264B0ECD002645CA /* hackingWithSwiftUIApp.swift in Sources */,
