@@ -30,4 +30,6 @@
 - [X] day 26
 - [X] day 27
 - [X] day 28
-- [ ] day 29
+- [X] day 29
+- [X] day 30
+- [ ] day 31
