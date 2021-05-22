@@ -5,10 +5,15 @@
 
 ## Projects List
 1. WeSplit
+<br> <img src="ScreenShots/1a.png" height= "300"> | <img src="ScreenShots/1b.png" height= "300"> <br> <br>
 2. LenghtConversion
+<br> <img src="ScreenShots/2a.png" height= "300"> | <img src="ScreenShots/2b.png" height= "300"> <br> <br>
 3. GuessTheFlag
+<br> <img src="ScreenShots/3a.png" height= "300"> | <img src="ScreenShots/3b.png" height= "300"> <br> <br>
 4. ViewsAndModifiers
+<br> <img src="ScreenShots/4.png" height= "300"> <br>
 5. BetterRest
+<br> <img src="ScreenShots/5a.png" height= "300"> | <img src="ScreenShots/5b.png" height= "300"> <br> <br>
 
 <hr>
 
