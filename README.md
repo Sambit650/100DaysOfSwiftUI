@@ -14,6 +14,8 @@
 <br> <img src="ScreenShots/4.png" height= "300"> <br>
 5. BetterRest
 <br> <img src="ScreenShots/5a.png" height= "300"> | <img src="ScreenShots/5b.png" height= "300"> <br> <br>
+6. WordScramble
+<br> <img src="ScreenShots/6a.png" height= "300"> | <img src="ScreenShots/6b.png" height= "300"> <br> <br>
 
 <hr>
 
