@@ -15,6 +15,8 @@
 		38736FB726504C3C00D1FB1F /* GuessTheFlag.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38736FB626504C3C00D1FB1F /* GuessTheFlag.swift */; };
 		388014E6264BC194007BD196 /* Conversion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 388014E5264BC194007BD196 /* Conversion.swift */; };
 		389374C72651C3E800F13752 /* ViewsAndModifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 389374C62651C3E800F13752 /* ViewsAndModifiers.swift */; };
+		389F26E526598E1D002D2259 /* WordScramble.swift in Sources */ = {isa = PBXBuildFile; fileRef = 389F26E426598E1D002D2259 /* WordScramble.swift */; };
+		389F26E926598FE1002D2259 /* start.txt in Resources */ = {isa = PBXBuildFile; fileRef = 389F26E826598FE1002D2259 /* start.txt */; };
 		38B1D64A265631D0009C1891 /* BetterRest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38B1D649265631D0009C1891 /* BetterRest.swift */; };
 		38B1D64E26563629009C1891 /* SleepCalculator.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 38B1D64D26563629009C1891 /* SleepCalculator.mlmodel */; };
 /* End PBXBuildFile section */
@@ -30,6 +32,8 @@
 		38736FB626504C3C00D1FB1F /* GuessTheFlag.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuessTheFlag.swift; sourceTree = "<group>"; };
 		388014E5264BC194007BD196 /* Conversion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Conversion.swift; sourceTree = "<group>"; };
 		389374C62651C3E800F13752 /* ViewsAndModifiers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewsAndModifiers.swift; sourceTree = "<group>"; };
+		389F26E426598E1D002D2259 /* WordScramble.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordScramble.swift; sourceTree = "<group>"; };
+		389F26E826598FE1002D2259 /* start.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = start.txt; sourceTree = "<group>"; };
 		38B1D649265631D0009C1891 /* BetterRest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BetterRest.swift; sourceTree = "<group>"; };
 		38B1D64D26563629009C1891 /* SleepCalculator.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = SleepCalculator.mlmodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -71,6 +75,7 @@
 				388014E4264BC16A007BD196 /* 03.LengthConversion */,
 				389374C52651C33200F13752 /* 04.ViewsAndModifiers */,
 				38B1D648265631A4009C1891 /* 05.BetterRest */,
+				389F26E326598DC7002D2259 /* 06.WordScramble */,
 				3852EB70264B0ECE002645CA /* Assets.xcassets */,
 				3852EB75264B0ECE002645CA /* Info.plist */,
 				3852EB72264B0ECE002645CA /* Preview Content */,
@@ -116,6 +121,15 @@
 				389374C62651C3E800F13752 /* ViewsAndModifiers.swift */,
 			);
 			path = 04.ViewsAndModifiers;
+			sourceTree = "<group>";
+		};
+		389F26E326598DC7002D2259 /* 06.WordScramble */ = {
+			isa = PBXGroup;
+			children = (
+				389F26E426598E1D002D2259 /* WordScramble.swift */,
+				389F26E826598FE1002D2259 /* start.txt */,
+			);
+			path = 06.WordScramble;
 			sourceTree = "<group>";
 		};
 		38B1D648265631A4009C1891 /* 05.BetterRest */ = {
@@ -185,6 +199,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3852EB74264B0ECE002645CA /* Preview Assets.xcassets in Resources */,
+				389F26E926598FE1002D2259 /* start.txt in Resources */,
 				3852EB71264B0ECE002645CA /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -204,6 +219,7 @@
 				3852EB6D264B0ECD002645CA /* hackingWithSwiftUIApp.swift in Sources */,
 				38B1D64A265631D0009C1891 /* BetterRest.swift in Sources */,
 				38736FB726504C3C00D1FB1F /* GuessTheFlag.swift in Sources */,
+				389F26E526598E1D002D2259 /* WordScramble.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
