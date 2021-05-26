@@ -13,6 +13,7 @@ struct Animations: View {
     
     @State private var animationAmount: CGFloat = 1
     @State private var animationCircle: CGFloat = 1
+    @State private var enabled: Bool = false
     
     // MARK:- Views
     
@@ -49,6 +50,16 @@ struct Animations: View {
                             .repeatForever(autoreverses: false)
                     )
             )
+            
+            Button("Tap me") {
+                self.enabled.toggle()
+            }
+            .frame(width: 200, height: 200, alignment: .center)
+            .foregroundColor(.white)
+            .background(enabled ? Color.red : Color.blue)
+            .animation(.default)
+            .clipShape(RoundedRectangle(cornerRadius: enabled ? 60 : 0))
+            .animation(.interpolatingSpring(stiffness: 10, damping: 1))
         }
     }
 }
