@@ -57,9 +57,10 @@ struct Animations: View {
             .frame(width: 200, height: 200, alignment: .center)
             .foregroundColor(.white)
             .background(enabled ? Color.red : Color.blue)
-            .animation(.default)
+            .animation(nil)
             .clipShape(RoundedRectangle(cornerRadius: enabled ? 60 : 0))
             .animation(.interpolatingSpring(stiffness: 10, damping: 1))
+            
         }
     }
 }
