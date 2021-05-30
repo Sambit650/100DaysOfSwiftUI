@@ -12,6 +12,7 @@
 		3852EB71264B0ECE002645CA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3852EB70264B0ECE002645CA /* Assets.xcassets */; };
 		3852EB74264B0ECE002645CA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3852EB73264B0ECE002645CA /* Preview Assets.xcassets */; };
 		3852EB85264B0F58002645CA /* WeSplit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3852EB84264B0F58002645CA /* WeSplit.swift */; };
+		38554DF82663F85900298E6D /* ShowHideAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38554DF72663F85900298E6D /* ShowHideAnimation.swift */; };
 		38736FB726504C3C00D1FB1F /* GuessTheFlag.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38736FB626504C3C00D1FB1F /* GuessTheFlag.swift */; };
 		388014E6264BC194007BD196 /* Conversion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 388014E5264BC194007BD196 /* Conversion.swift */; };
 		389374C72651C3E800F13752 /* ViewsAndModifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 389374C62651C3E800F13752 /* ViewsAndModifiers.swift */; };
@@ -31,6 +32,7 @@
 		3852EB73264B0ECE002645CA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		3852EB75264B0ECE002645CA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3852EB84264B0F58002645CA /* WeSplit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeSplit.swift; sourceTree = "<group>"; };
+		38554DF72663F85900298E6D /* ShowHideAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowHideAnimation.swift; sourceTree = "<group>"; };
 		38736FB626504C3C00D1FB1F /* GuessTheFlag.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuessTheFlag.swift; sourceTree = "<group>"; };
 		388014E5264BC194007BD196 /* Conversion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Conversion.swift; sourceTree = "<group>"; };
 		389374C62651C3E800F13752 /* ViewsAndModifiers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewsAndModifiers.swift; sourceTree = "<group>"; };
@@ -142,6 +144,7 @@
 			children = (
 				389F26ED2659AFB7002D2259 /* Animations.swift */,
 				38FED0D0265EB809009AB95D /* DragAnimation.swift */,
+				38554DF72663F85900298E6D /* ShowHideAnimation.swift */,
 			);
 			path = 07.Animations;
 			sourceTree = "<group>";
@@ -230,6 +233,7 @@
 				38FED0D1265EB809009AB95D /* DragAnimation.swift in Sources */,
 				38B1D64E26563629009C1891 /* SleepCalculator.mlmodel in Sources */,
 				3852EB85264B0F58002645CA /* WeSplit.swift in Sources */,
+				38554DF82663F85900298E6D /* ShowHideAnimation.swift in Sources */,
 				389374C72651C3E800F13752 /* ViewsAndModifiers.swift in Sources */,
 				3852EB6D264B0ECD002645CA /* hackingWithSwiftUIApp.swift in Sources */,
 				389F26EE2659AFB7002D2259 /* Animations.swift in Sources */,
