@@ -78,11 +78,12 @@
 				3852EB6E264B0ECD002645CA /* ContentView.swift */,
 				3852EB7F264B0F16002645CA /* 01.WeSplit */,
 				38736FB526504C0D00D1FB1F /* 02.GuessTheFlag */,
-				388014E4264BC16A007BD196 /* 03.LengthConversion */,
-				389374C52651C33200F13752 /* 04.ViewsAndModifiers */,
-				38B1D648265631A4009C1891 /* 05.BetterRest */,
-				389F26E326598DC7002D2259 /* 06.WordScramble */,
-				389F26EC2659AF89002D2259 /* 07.Animations */,
+				388014E4264BC16A007BD196 /* 02.1.LengthConversion */,
+				389374C52651C33200F13752 /* 03.ViewsAndModifiers */,
+				38B1D648265631A4009C1891 /* 04.BetterRest */,
+				389F26E326598DC7002D2259 /* 05.WordScramble */,
+				389F26EC2659AF89002D2259 /* 06.Animations */,
+				38E01A6F266C1BC60083B86E /* 07.iExpense */,
 				3852EB70264B0ECE002645CA /* Assets.xcassets */,
 				3852EB75264B0ECE002645CA /* Info.plist */,
 				3852EB72264B0ECE002645CA /* Preview Content */,
@@ -114,48 +115,55 @@
 			path = 02.GuessTheFlag;
 			sourceTree = "<group>";
 		};
-		388014E4264BC16A007BD196 /* 03.LengthConversion */ = {
+		388014E4264BC16A007BD196 /* 02.1.LengthConversion */ = {
 			isa = PBXGroup;
 			children = (
 				388014E5264BC194007BD196 /* Conversion.swift */,
 			);
-			path = 03.LengthConversion;
+			path = 02.1.LengthConversion;
 			sourceTree = "<group>";
 		};
-		389374C52651C33200F13752 /* 04.ViewsAndModifiers */ = {
+		389374C52651C33200F13752 /* 03.ViewsAndModifiers */ = {
 			isa = PBXGroup;
 			children = (
 				389374C62651C3E800F13752 /* ViewsAndModifiers.swift */,
 			);
-			path = 04.ViewsAndModifiers;
+			path = 03.ViewsAndModifiers;
 			sourceTree = "<group>";
 		};
-		389F26E326598DC7002D2259 /* 06.WordScramble */ = {
+		389F26E326598DC7002D2259 /* 05.WordScramble */ = {
 			isa = PBXGroup;
 			children = (
 				389F26E426598E1D002D2259 /* WordScramble.swift */,
 				389F26E826598FE1002D2259 /* start.txt */,
 			);
-			path = 06.WordScramble;
+			path = 05.WordScramble;
 			sourceTree = "<group>";
 		};
-		389F26EC2659AF89002D2259 /* 07.Animations */ = {
+		389F26EC2659AF89002D2259 /* 06.Animations */ = {
 			isa = PBXGroup;
 			children = (
 				389F26ED2659AFB7002D2259 /* Animations.swift */,
 				38FED0D0265EB809009AB95D /* DragAnimation.swift */,
 				38554DF72663F85900298E6D /* ShowHideAnimation.swift */,
 			);
-			path = 07.Animations;
+			path = 06.Animations;
 			sourceTree = "<group>";
 		};
-		38B1D648265631A4009C1891 /* 05.BetterRest */ = {
+		38B1D648265631A4009C1891 /* 04.BetterRest */ = {
 			isa = PBXGroup;
 			children = (
 				38B1D649265631D0009C1891 /* BetterRest.swift */,
 				38B1D64D26563629009C1891 /* SleepCalculator.mlmodel */,
 			);
-			path = 05.BetterRest;
+			path = 04.BetterRest;
+			sourceTree = "<group>";
+		};
+		38E01A6F266C1BC60083B86E /* 07.iExpense */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = 07.iExpense;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
