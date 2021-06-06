@@ -76,7 +76,7 @@ struct GuessTheFlag: View {
             scoreTitle = "Wow! Correct"
             yourScore += 1
         } else {
-            scoreTitle = "Wrong! That's flag of \(countries[correctAnswer])"
+            scoreTitle = "Wrong! That's not the flag of \(countries[correctAnswer])"
         }
         showingScore = true
         totalQuestionAttempted += 1
