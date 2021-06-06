@@ -46,3 +46,6 @@
 - [X] day 35
 - [X] day 36
 - [X] day 37
+- [X] day 38
+- [ ] day 39
+- [ ] day 40
