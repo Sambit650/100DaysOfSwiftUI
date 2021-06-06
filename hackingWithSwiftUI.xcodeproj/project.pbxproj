@@ -21,6 +21,8 @@
 		389F26EE2659AFB7002D2259 /* Animations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 389F26ED2659AFB7002D2259 /* Animations.swift */; };
 		38B1D64A265631D0009C1891 /* BetterRest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38B1D649265631D0009C1891 /* BetterRest.swift */; };
 		38B1D64E26563629009C1891 /* SleepCalculator.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 38B1D64D26563629009C1891 /* SleepCalculator.mlmodel */; };
+		38E01A76266C1D770083B86E /* iExpense.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38E01A75266C1D770083B86E /* iExpense.swift */; };
+		38E01A79266C1DE40083B86E /* AddView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38E01A78266C1DE40083B86E /* AddView.swift */; };
 		38FED0D1265EB809009AB95D /* DragAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38FED0D0265EB809009AB95D /* DragAnimation.swift */; };
 /* End PBXBuildFile section */
 
@@ -41,6 +43,8 @@
 		389F26ED2659AFB7002D2259 /* Animations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Animations.swift; sourceTree = "<group>"; };
 		38B1D649265631D0009C1891 /* BetterRest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BetterRest.swift; sourceTree = "<group>"; };
 		38B1D64D26563629009C1891 /* SleepCalculator.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = SleepCalculator.mlmodel; sourceTree = "<group>"; };
+		38E01A75266C1D770083B86E /* iExpense.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iExpense.swift; sourceTree = "<group>"; };
+		38E01A78266C1DE40083B86E /* AddView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddView.swift; sourceTree = "<group>"; };
 		38FED0D0265EB809009AB95D /* DragAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DragAnimation.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -162,6 +166,8 @@
 		38E01A6F266C1BC60083B86E /* 07.iExpense */ = {
 			isa = PBXGroup;
 			children = (
+				38E01A75266C1D770083B86E /* iExpense.swift */,
+				38E01A78266C1DE40083B86E /* AddView.swift */,
 			);
 			path = 07.iExpense;
 			sourceTree = "<group>";
@@ -236,6 +242,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				38E01A79266C1DE40083B86E /* AddView.swift in Sources */,
 				3852EB6F264B0ECD002645CA /* ContentView.swift in Sources */,
 				388014E6264BC194007BD196 /* Conversion.swift in Sources */,
 				38FED0D1265EB809009AB95D /* DragAnimation.swift in Sources */,
@@ -244,6 +251,7 @@
 				38554DF82663F85900298E6D /* ShowHideAnimation.swift in Sources */,
 				389374C72651C3E800F13752 /* ViewsAndModifiers.swift in Sources */,
 				3852EB6D264B0ECD002645CA /* hackingWithSwiftUIApp.swift in Sources */,
+				38E01A76266C1D770083B86E /* iExpense.swift in Sources */,
 				389F26EE2659AFB7002D2259 /* Animations.swift in Sources */,
 				38B1D64A265631D0009C1891 /* BetterRest.swift in Sources */,
 				38736FB726504C3C00D1FB1F /* GuessTheFlag.swift in Sources */,
