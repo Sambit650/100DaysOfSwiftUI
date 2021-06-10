@@ -19,6 +19,9 @@
 		389F26E526598E1D002D2259 /* WordScramble.swift in Sources */ = {isa = PBXBuildFile; fileRef = 389F26E426598E1D002D2259 /* WordScramble.swift */; };
 		389F26E926598FE1002D2259 /* start.txt in Resources */ = {isa = PBXBuildFile; fileRef = 389F26E826598FE1002D2259 /* start.txt */; };
 		389F26EE2659AFB7002D2259 /* Animations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 389F26ED2659AFB7002D2259 /* Animations.swift */; };
+		38A27594267288F200B9A0E6 /* MoonShot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38A27593267288F200B9A0E6 /* MoonShot.swift */; };
+		38A275982672898100B9A0E6 /* astronauts.json in Resources */ = {isa = PBXBuildFile; fileRef = 38A275962672898100B9A0E6 /* astronauts.json */; };
+		38A275992672898100B9A0E6 /* missions.json in Resources */ = {isa = PBXBuildFile; fileRef = 38A275972672898100B9A0E6 /* missions.json */; };
 		38B1D64A265631D0009C1891 /* BetterRest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38B1D649265631D0009C1891 /* BetterRest.swift */; };
 		38B1D64E26563629009C1891 /* SleepCalculator.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 38B1D64D26563629009C1891 /* SleepCalculator.mlmodel */; };
 		38E01A76266C1D770083B86E /* iExpense.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38E01A75266C1D770083B86E /* iExpense.swift */; };
@@ -41,6 +44,9 @@
 		389F26E426598E1D002D2259 /* WordScramble.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordScramble.swift; sourceTree = "<group>"; };
 		389F26E826598FE1002D2259 /* start.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = start.txt; sourceTree = "<group>"; };
 		389F26ED2659AFB7002D2259 /* Animations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Animations.swift; sourceTree = "<group>"; };
+		38A27593267288F200B9A0E6 /* MoonShot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoonShot.swift; sourceTree = "<group>"; };
+		38A275962672898100B9A0E6 /* astronauts.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = astronauts.json; sourceTree = "<group>"; };
+		38A275972672898100B9A0E6 /* missions.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = missions.json; sourceTree = "<group>"; };
 		38B1D649265631D0009C1891 /* BetterRest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BetterRest.swift; sourceTree = "<group>"; };
 		38B1D64D26563629009C1891 /* SleepCalculator.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = SleepCalculator.mlmodel; sourceTree = "<group>"; };
 		38E01A75266C1D770083B86E /* iExpense.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iExpense.swift; sourceTree = "<group>"; };
@@ -88,6 +94,7 @@
 				389F26E326598DC7002D2259 /* 05.WordScramble */,
 				389F26EC2659AF89002D2259 /* 06.Animations */,
 				38E01A6F266C1BC60083B86E /* 07.iExpense */,
+				38A275922672889E00B9A0E6 /* 08.MoonShot */,
 				3852EB70264B0ECE002645CA /* Assets.xcassets */,
 				3852EB75264B0ECE002645CA /* Info.plist */,
 				3852EB72264B0ECE002645CA /* Preview Content */,
@@ -152,6 +159,16 @@
 				38554DF72663F85900298E6D /* ShowHideAnimation.swift */,
 			);
 			path = 06.Animations;
+			sourceTree = "<group>";
+		};
+		38A275922672889E00B9A0E6 /* 08.MoonShot */ = {
+			isa = PBXGroup;
+			children = (
+				38A27593267288F200B9A0E6 /* MoonShot.swift */,
+				38A275962672898100B9A0E6 /* astronauts.json */,
+				38A275972672898100B9A0E6 /* missions.json */,
+			);
+			path = 08.MoonShot;
 			sourceTree = "<group>";
 		};
 		38B1D648265631A4009C1891 /* 04.BetterRest */ = {
@@ -230,8 +247,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				3852EB74264B0ECE002645CA /* Preview Assets.xcassets in Resources */,
+				38A275992672898100B9A0E6 /* missions.json in Resources */,
 				389F26E926598FE1002D2259 /* start.txt in Resources */,
 				3852EB71264B0ECE002645CA /* Assets.xcassets in Resources */,
+				38A275982672898100B9A0E6 /* astronauts.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -250,6 +269,7 @@
 				3852EB85264B0F58002645CA /* WeSplit.swift in Sources */,
 				38554DF82663F85900298E6D /* ShowHideAnimation.swift in Sources */,
 				389374C72651C3E800F13752 /* ViewsAndModifiers.swift in Sources */,
+				38A27594267288F200B9A0E6 /* MoonShot.swift in Sources */,
 				3852EB6D264B0ECD002645CA /* hackingWithSwiftUIApp.swift in Sources */,
 				38E01A76266C1D770083B86E /* iExpense.swift in Sources */,
 				389F26EE2659AFB7002D2259 /* Animations.swift in Sources */,
