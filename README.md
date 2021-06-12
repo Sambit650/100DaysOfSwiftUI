@@ -48,5 +48,7 @@
 - [X] day 37
 - [X] day 38
 - [X] day 39
-- [ ] day 40
-- [ ] day 41
+- [X] day 40
+- [X] day 41
+- [ ] day 42
+- [ ] day 43
