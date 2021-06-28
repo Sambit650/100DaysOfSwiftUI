@@ -50,5 +50,14 @@
 - [X] day 39
 - [X] day 40
 - [X] day 41
-- [ ] day 42
-- [ ] day 43
+- [X] day 42
+- [X] day 43
+- [X] day 44
+- [X] day 45
+- [X] day 46
+- [X] day 47
+- [X] day 48
+- [X] day 49
+- [X] day 50
+- [ ] day 51
+- [ ] day 52
