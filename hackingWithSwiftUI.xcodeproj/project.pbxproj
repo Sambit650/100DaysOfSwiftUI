@@ -31,6 +31,7 @@
 		38BC1E182689F36600E98DE4 /* Mission.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38BC1E172689F36600E98DE4 /* Mission.swift */; };
 		38BC1E202689F9A700E98DE4 /* DrawingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38BC1E1F2689F9A700E98DE4 /* DrawingView.swift */; };
 		38BC1E232689FB8E00E98DE4 /* SpiroGraphView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38BC1E222689FB8E00E98DE4 /* SpiroGraphView.swift */; };
+		38BC1E27268A19A300E98DE4 /* CupCakeCornerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38BC1E26268A19A300E98DE4 /* CupCakeCornerView.swift */; };
 		38E01A76266C1D770083B86E /* iExpense.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38E01A75266C1D770083B86E /* iExpense.swift */; };
 		38E01A79266C1DE40083B86E /* AddView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38E01A78266C1DE40083B86E /* AddView.swift */; };
 		38FED0D1265EB809009AB95D /* DragAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38FED0D0265EB809009AB95D /* DragAnimation.swift */; };
@@ -63,6 +64,7 @@
 		38BC1E172689F36600E98DE4 /* Mission.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mission.swift; sourceTree = "<group>"; };
 		38BC1E1F2689F9A700E98DE4 /* DrawingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawingView.swift; sourceTree = "<group>"; };
 		38BC1E222689FB8E00E98DE4 /* SpiroGraphView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpiroGraphView.swift; sourceTree = "<group>"; };
+		38BC1E26268A19A300E98DE4 /* CupCakeCornerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CupCakeCornerView.swift; sourceTree = "<group>"; };
 		38E01A75266C1D770083B86E /* iExpense.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iExpense.swift; sourceTree = "<group>"; };
 		38E01A78266C1DE40083B86E /* AddView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddView.swift; sourceTree = "<group>"; };
 		38FED0D0265EB809009AB95D /* DragAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DragAnimation.swift; sourceTree = "<group>"; };
@@ -110,6 +112,7 @@
 				38E01A6F266C1BC60083B86E /* 07.iExpense */,
 				38A275922672889E00B9A0E6 /* 08.MoonShot */,
 				38BC1E052689ECB400E98DE4 /* 09.Drawing */,
+				38BC1E25268A196A00E98DE4 /* 10.CupCake_Corner */,
 				3852EB70264B0ECE002645CA /* Assets.xcassets */,
 				3852EB75264B0ECE002645CA /* Info.plist */,
 				3852EB72264B0ECE002645CA /* Preview Content */,
@@ -207,6 +210,14 @@
 				38BC1E222689FB8E00E98DE4 /* SpiroGraphView.swift */,
 			);
 			path = 09.Drawing;
+			sourceTree = "<group>";
+		};
+		38BC1E25268A196A00E98DE4 /* 10.CupCake_Corner */ = {
+			isa = PBXGroup;
+			children = (
+				38BC1E26268A19A300E98DE4 /* CupCakeCornerView.swift */,
+			);
+			path = 10.CupCake_Corner;
 			sourceTree = "<group>";
 		};
 		38E01A6F266C1BC60083B86E /* 07.iExpense */ = {
@@ -311,6 +322,7 @@
 				38B1D64A265631D0009C1891 /* BetterRest.swift in Sources */,
 				38736FB726504C3C00D1FB1F /* GuessTheFlag.swift in Sources */,
 				38BC1E182689F36600E98DE4 /* Mission.swift in Sources */,
+				38BC1E27268A19A300E98DE4 /* CupCakeCornerView.swift in Sources */,
 				389F26E526598E1D002D2259 /* WordScramble.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
