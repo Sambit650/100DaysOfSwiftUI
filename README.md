@@ -22,7 +22,7 @@
 ## Starting SwiftUI
 
 |1-20 |21-30 |31-40 |41-50 |51-60 |61-70 |71-80 |81-90 |91-100 |
-|--- |--- |--- |--- |--- |--- |--- |--- |--- |
+|----- |----- |----- |----- |----- |----- |----- |----- |----- |
 |<ul><li> </li></ul> |<ul><li>[X] day 21</li></ul> |<ul><li>[X] day 31</li></ul> |<ul><li>[X] day 41</li></ul> |<ul><li>[X] day 51</li></ul> |<ul><li>[ ] day 61</li></ul> |<ul><li>[ ] day 71</li></ul> |<ul><li>[ ] day 81</li></ul> |<ul><li>[ ] day 91</li></ul> |
 |<ul><li> </li></ul> |<ul><li>[X] day 22</li></ul> |<ul><li>[X] day 32</li></ul> |<ul><li>[X] day 42</li></ul> |<ul><li>[X] day 52</li></ul> |<ul><li>[ ] day 62</li></ul> |<ul><li>[ ] day 72</li></ul> |<ul><li>[ ] day 82</li></ul> |<ul><li>[ ] day 92</li></ul> |
 |<ul><li> Swift</li></ul> |<ul><li>[X] day 23</li></ul> |<ul><li>[X] day 33</li></ul> |<ul><li>[X] day 43</li></ul> |<ul><li>[ ] day 53</li></ul> |<ul><li>[ ] day 63</li></ul> |<ul><li>[ ] day 73</li></ul> |<ul><li>[ ] day 83</li></ul> |<ul><li>[ ] day 93</li></ul> |
