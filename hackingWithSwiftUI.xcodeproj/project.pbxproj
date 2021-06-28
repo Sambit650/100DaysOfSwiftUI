@@ -24,6 +24,11 @@
 		38A275992672898100B9A0E6 /* missions.json in Resources */ = {isa = PBXBuildFile; fileRef = 38A275972672898100B9A0E6 /* missions.json */; };
 		38B1D64A265631D0009C1891 /* BetterRest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38B1D649265631D0009C1891 /* BetterRest.swift */; };
 		38B1D64E26563629009C1891 /* SleepCalculator.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 38B1D64D26563629009C1891 /* SleepCalculator.mlmodel */; };
+		38BC1E0B2689F26C00E98DE4 /* MissionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38BC1E0A2689F26C00E98DE4 /* MissionView.swift */; };
+		38BC1E0E2689F2DA00E98DE4 /* AstronautView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38BC1E0D2689F2DA00E98DE4 /* AstronautView.swift */; };
+		38BC1E122689F31D00E98DE4 /* Bundle_Decodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38BC1E112689F31D00E98DE4 /* Bundle_Decodable.swift */; };
+		38BC1E152689F34F00E98DE4 /* Astronaut.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38BC1E142689F34F00E98DE4 /* Astronaut.swift */; };
+		38BC1E182689F36600E98DE4 /* Mission.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38BC1E172689F36600E98DE4 /* Mission.swift */; };
 		38E01A76266C1D770083B86E /* iExpense.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38E01A75266C1D770083B86E /* iExpense.swift */; };
 		38E01A79266C1DE40083B86E /* AddView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38E01A78266C1DE40083B86E /* AddView.swift */; };
 		38FED0D1265EB809009AB95D /* DragAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38FED0D0265EB809009AB95D /* DragAnimation.swift */; };
@@ -49,6 +54,11 @@
 		38A275972672898100B9A0E6 /* missions.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = missions.json; sourceTree = "<group>"; };
 		38B1D649265631D0009C1891 /* BetterRest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BetterRest.swift; sourceTree = "<group>"; };
 		38B1D64D26563629009C1891 /* SleepCalculator.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = SleepCalculator.mlmodel; sourceTree = "<group>"; };
+		38BC1E0A2689F26C00E98DE4 /* MissionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MissionView.swift; sourceTree = "<group>"; };
+		38BC1E0D2689F2DA00E98DE4 /* AstronautView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AstronautView.swift; sourceTree = "<group>"; };
+		38BC1E112689F31D00E98DE4 /* Bundle_Decodable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bundle_Decodable.swift; sourceTree = "<group>"; };
+		38BC1E142689F34F00E98DE4 /* Astronaut.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Astronaut.swift; sourceTree = "<group>"; };
+		38BC1E172689F36600E98DE4 /* Mission.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mission.swift; sourceTree = "<group>"; };
 		38E01A75266C1D770083B86E /* iExpense.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iExpense.swift; sourceTree = "<group>"; };
 		38E01A78266C1DE40083B86E /* AddView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddView.swift; sourceTree = "<group>"; };
 		38FED0D0265EB809009AB95D /* DragAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DragAnimation.swift; sourceTree = "<group>"; };
@@ -95,6 +105,7 @@
 				389F26EC2659AF89002D2259 /* 06.Animations */,
 				38E01A6F266C1BC60083B86E /* 07.iExpense */,
 				38A275922672889E00B9A0E6 /* 08.MoonShot */,
+				38BC1E052689ECB400E98DE4 /* 09.Drawing */,
 				3852EB70264B0ECE002645CA /* Assets.xcassets */,
 				3852EB75264B0ECE002645CA /* Info.plist */,
 				3852EB72264B0ECE002645CA /* Preview Content */,
@@ -165,6 +176,11 @@
 			isa = PBXGroup;
 			children = (
 				38A27593267288F200B9A0E6 /* MoonShot.swift */,
+				38BC1E0A2689F26C00E98DE4 /* MissionView.swift */,
+				38BC1E0D2689F2DA00E98DE4 /* AstronautView.swift */,
+				38BC1E112689F31D00E98DE4 /* Bundle_Decodable.swift */,
+				38BC1E142689F34F00E98DE4 /* Astronaut.swift */,
+				38BC1E172689F36600E98DE4 /* Mission.swift */,
 				38A275962672898100B9A0E6 /* astronauts.json */,
 				38A275972672898100B9A0E6 /* missions.json */,
 			);
@@ -178,6 +194,13 @@
 				38B1D64D26563629009C1891 /* SleepCalculator.mlmodel */,
 			);
 			path = 04.BetterRest;
+			sourceTree = "<group>";
+		};
+		38BC1E052689ECB400E98DE4 /* 09.Drawing */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = 09.Drawing;
 			sourceTree = "<group>";
 		};
 		38E01A6F266C1BC60083B86E /* 07.iExpense */ = {
@@ -262,19 +285,24 @@
 			buildActionMask = 2147483647;
 			files = (
 				38E01A79266C1DE40083B86E /* AddView.swift in Sources */,
+				38BC1E122689F31D00E98DE4 /* Bundle_Decodable.swift in Sources */,
 				3852EB6F264B0ECD002645CA /* ContentView.swift in Sources */,
 				388014E6264BC194007BD196 /* Conversion.swift in Sources */,
 				38FED0D1265EB809009AB95D /* DragAnimation.swift in Sources */,
+				38BC1E152689F34F00E98DE4 /* Astronaut.swift in Sources */,
 				38B1D64E26563629009C1891 /* SleepCalculator.mlmodel in Sources */,
+				38BC1E0E2689F2DA00E98DE4 /* AstronautView.swift in Sources */,
 				3852EB85264B0F58002645CA /* WeSplit.swift in Sources */,
 				38554DF82663F85900298E6D /* ShowHideAnimation.swift in Sources */,
 				389374C72651C3E800F13752 /* ViewsAndModifiers.swift in Sources */,
 				38A27594267288F200B9A0E6 /* MoonShot.swift in Sources */,
+				38BC1E0B2689F26C00E98DE4 /* MissionView.swift in Sources */,
 				3852EB6D264B0ECD002645CA /* hackingWithSwiftUIApp.swift in Sources */,
 				38E01A76266C1D770083B86E /* iExpense.swift in Sources */,
 				389F26EE2659AFB7002D2259 /* Animations.swift in Sources */,
 				38B1D64A265631D0009C1891 /* BetterRest.swift in Sources */,
 				38736FB726504C3C00D1FB1F /* GuessTheFlag.swift in Sources */,
+				38BC1E182689F36600E98DE4 /* Mission.swift in Sources */,
 				389F26E526598E1D002D2259 /* WordScramble.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
